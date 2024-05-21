@@ -1,4 +1,4 @@
-import { alignPropType } from "react-bootstrap/esm/types";
+
 import WorkItem from "./WorkItem"
 
 let workData = [
@@ -44,11 +44,11 @@ const Work = () => {
             <section>
                 <div className="container mx-auto">
                     <div className="row">
-                        <WorkItem />
+
                         {
                             workData.map((item, index) => {
                                 const { title, description, imgUrl, link, btnText, alt } = item;
-                                return <Work
+                                return <WorkItem
                                     key={index}
                                     title={title}
                                     description={description}
