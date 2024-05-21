@@ -9,7 +9,7 @@ const WorkItem = ({ title, description, link, btnText, imgUrl, alt }) => {
                     <div className="overlay-text">
                         <h3>{title}</h3>
                         <p>{description}</p>
-                        <a href={link}>
+                        <a href={link} target="_">
 
                             <button className='btn btn-primary'>
                                 {btnText}</button>
