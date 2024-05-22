@@ -1,4 +1,4 @@
-import React from 'react'
+
 import TeamItem from './TeamItem'
 
 const Team = () => {

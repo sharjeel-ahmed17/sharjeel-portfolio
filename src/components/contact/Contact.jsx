@@ -1,9 +1,9 @@
-import React from 'react'
+
 
 const Contact = () => {
     return (
-        <div className='container mt-5 '>
-            <h2 className='text-center'>Contact US</h2>
+        <div className='container mt-5 ' >
+            <h2 className='text-center' id='contact'>Contact US</h2>
             <div className='text-center'>
 
                 <p><span>Email : </span>sharjeelalibari@gmail.com</p>
