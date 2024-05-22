@@ -6,7 +6,7 @@ const Service = () => {
         <section>
 
             <div className="container my-5">
-                <h2 className='text-center' id="service">Services</h2>
+                <h2 className='text-center' id="services">Services</h2>
                 <div className="row mx-auto w-75">
 
                     <ServiceItem />

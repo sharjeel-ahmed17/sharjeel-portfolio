@@ -27,7 +27,7 @@ const Hero = () => {
                         </p>
                         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                             <button type="button" className="btn btn-primary btn-lg px-4 gap-3">
-                                Primary button
+                                <a href="#work" className="text-white">view work</a>
                             </button>
 
                         </div>

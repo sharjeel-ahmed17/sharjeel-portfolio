@@ -12,7 +12,7 @@ const Work = () => {
 
             <section>
                 <div className="container mx-auto my-5">
-                    <h2 className="text-center">Work</h2>
+                    <h2 className="text-center" id="work">Work</h2>
                     <div className="row">
 
                         {

@@ -7,7 +7,14 @@ const FooterAboveMiddle = () => {
             </h4>
             <p className='m-0 px-0'>LinkedIn: linkedin.com/in/yourprofile</p>
             <p className='m-0 px-0'>Twitter: twitter.com/yourprofile</p>
-            <p className='m-0 px-0'>GitHub: github.com/yourprofile</p>
+            <a href="https://github.com/sharjeel-ahmed17" target='_'>
+
+                <p className='m-0 px-0'>GitHub: https://github.com/sharjeel-ahmed17</p>
+            </a>
+            <a href="https://www.linkedin.com/in/sharjeel-ahmed17/" target='_'>
+
+                <p className='m-0 px-0'>Linkdin: https://www.linkedin.com/in/sharjeel-ahmed17/</p>
+            </a>
             <p className='m-0 px-0'>Instagram: instagram.com/yourprofile
 
             </p>
