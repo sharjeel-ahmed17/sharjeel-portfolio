@@ -1,6 +1,7 @@
 
 
 import Contact from './components/contact/Contact'
+import Hero from './components/hero/Hero'
 import Layout from './components/layout/Layout'
 import Service from './components/service/Service'
 import Team from './components/team/Team'
@@ -11,12 +12,14 @@ function App() {
 
   return (
     <>
-      hello world
+
       <Layout>
+        <Hero />
         <Work />
         <Service />
         <Team />
         <Contact />
+
       </Layout>
     </>
   )

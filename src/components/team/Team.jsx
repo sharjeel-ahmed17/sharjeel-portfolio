@@ -1,8 +1,19 @@
 import React from 'react'
+import TeamItem from './TeamItem'
 
 const Team = () => {
     return (
-        <div>Team</div>
+        <section>
+            <div className="container my-5">
+                <h2 className='text-center'>Team</h2>
+                <div className="row">
+                    <TeamItem />
+                    <TeamItem />
+                    <TeamItem />
+                    <TeamItem />
+                </div>
+            </div>
+        </section>
     )
 }
 

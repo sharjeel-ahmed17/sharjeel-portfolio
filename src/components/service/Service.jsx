@@ -1,8 +1,22 @@
 import React from 'react'
+import ServiceItem from './ServiceItem'
 
 const Service = () => {
     return (
-        <div>Service</div>
+        <section>
+
+            <div className="container my-5">
+                <h2 className='text-center'>Services</h2>
+                <div className="row mx-auto w-75">
+
+                    <ServiceItem />
+                    <ServiceItem />
+                    <ServiceItem />
+                    <ServiceItem />
+                </div>
+
+            </div>
+        </section>
     )
 }
 
